@@ -1,0 +1,18 @@
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">id</th>
+            <th scope="col">name</th>
+            <th scope="col">username</th>
+            <th scope="col">email</th>
+        </tr>
+    </thead>
+    <tbody *ngFor="let d of data">
+        <tr>
+            <th scope="row">{{d.id}}</th>
+            <td>{{d.name}}</td>
+            <td>{{d.username}}</td>
+            <td>{{d.email}}</td>
+        </tr>
+    </tbody>
+</table>

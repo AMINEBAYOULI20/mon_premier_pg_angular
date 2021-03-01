@@ -1,0 +1,17 @@
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">username</th>
+            <th scope="col">email</th>
+            <th scope="col">password</th>
+        </tr>
+    </thead>
+    <tbody *ngFor="let u of data">
+        <tr>
+            <td>{{u.username}}</td>
+            <td>{{u.email}}</td>
+            <td>{{u.pwd}}</td>
+        </tr>
+    </tbody>
+</table>
+<button (click)="obs()"> subscribe </button>

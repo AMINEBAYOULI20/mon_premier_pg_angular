@@ -1,0 +1,14 @@
+<div class="row">
+    <div class="col-md-6 offset-md-3 mt-4">
+        <h3>Reset Password</h3>
+        <form [formGroup]="restForm">
+            <div class="form-group" >
+                <label for="email">Account Email</label>
+                <input type="email" class="form-control" ngModelname="email" placeholder="Enter email"
+                    formControlName="email">
+            </div>
+
+            <button type="submit" class="btn btn-primary"(click)="getpwd()" [disabled]="restForm.invalid">Reset Password </button>
+        </form>
+    </div>
+</div>
