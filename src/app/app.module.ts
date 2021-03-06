@@ -13,6 +13,7 @@ import { ResetpwdComponent } from './resetpwd/resetpwd.component';
 import { AuthService } from './Services/auth.service';
 import { HomeComponent } from './home/home.component';
 import { ObserviceService } from './Services/observice.service';
+import { AaaComponent } from './aaa/aaa.component';
 
 
 const appRoutes: Routes = [
@@ -32,6 +33,7 @@ const appRoutes: Routes = [
     RegisterComponent,
     ResetpwdComponent,
     HomeComponent,
+    AaaComponent,
     
     ],
   imports: [
